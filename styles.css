@@ -1,8 +1,4 @@
 /*---------------Global---------------*/
-:root {
-    --header-width: 350px;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,7 +13,7 @@ body {
 
 header {
     background-color: #071627;
-    width: var(--header-width);
+    width: 350px;
     height: 100vh;
     z-index: 10;
 }
@@ -45,6 +41,21 @@ header {
 header .bi {
     color: white;
     font-size: 25px;
+}
+
+#navmenu {
+    text-align: center;
+}
+
+#navmenu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#navmenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 
