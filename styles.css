@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background-color: #0b203a;
+}
+
+.header-text {
+    color: white;
+    font-size: 25px;
+    padding: 1em;
+}
+
+section {
+    margin-top: 2em;
+}
+
+.bi {
+    color: white;
+}
+
+.bi-twitter-x:before {
+    content: "\F8D8";
+}
